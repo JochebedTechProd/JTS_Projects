@@ -1,0 +1,11 @@
+#Internal package file, do not edit.
+#Sat Dec 28 18:29:56 IST 2019
+1.base=D\:\\Work\\Vinay\\wetransfer-8dc5cb\\SmartHomeDemo\\SmartHomeDemo\\Android\\AC_remote\\app\\build\\intermediates\\transforms\\stripDebugSymbol\\release\\0
+0.baseType=DIRECTORY
+1.baseType=DIRECTORY
+count=2
+1.set=NATIVE_RESOURCE
+0.path=classes.dex
+0.set=DEX
+0.base=D\:\\Work\\Vinay\\wetransfer-8dc5cb\\SmartHomeDemo\\SmartHomeDemo\\Android\\AC_remote\\app\\build\\intermediates\\transforms\\dexMerger\\release\\0
+1.path=lib/armeabi/libBLSmartHomeAPI.so

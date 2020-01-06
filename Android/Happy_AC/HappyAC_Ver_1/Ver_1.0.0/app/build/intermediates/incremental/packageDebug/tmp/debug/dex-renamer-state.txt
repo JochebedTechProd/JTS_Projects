@@ -1,0 +1,4 @@
+#Sat Dec 28 18:26:51 IST 2019
+base.0=D\:\\Work\\Vinay\\wetransfer-8dc5cb\\SmartHomeDemo\\SmartHomeDemo\\Android\\AC_remote\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\0
+path.0=classes.dex
+renamed.0=classes.dex
