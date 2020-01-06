@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff">
+    <include layout="@layout/main_settings"/>
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/remote"
+    android:textSize="25dp"
+    android:gravity="center"
+    android:layout_marginTop="90dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/configuration"
+        android:textStyle="bold"
+        android:textColor="#F20000"
+        android:textSize="25dp"
+        android:gravity="center"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="70dp"
+        android:background="@mipmap/ir_img"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/xxx_xxxx_xxx_xxxx"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:layout_marginTop="20dp"
+        android:gravity="center"/>
+    <EditText
+        android:id="@+id/ec_ssid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/common_grey"
+        android:textColorHint="#C0C0C0"
+        android:gravity="center"
+        android:hint="WiFi SSID"/>
+
+    <EditText
+        android:id="@+id/ec_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/common_grey"
+        android:textColorHint="#C0C0C0"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:password="true"
+        android:hint="WiFi Password"/>
+    <!--<EditText
+        android:id="@+id/rm_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textColor="@color/common_blue"
+        android:textColorHint="#C0C0C0"
+        android:visibility="gone"
+        android:hint="Room Name"/>-->
+
+    <TextView
+        android:id="@+id/ec_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/btn_submi"
+        android:layout_marginTop="50dp"
+        android:textStyle="bold"
+        android:text="Save Premesis"/>
+
+    <TextView
+        android:id="@+id/ec_cancel_config"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+            style="@style/text_style"
+        android:visibility="gone"
+        android:text="Cancel the distribution network"/>
+
+</LinearLayout>

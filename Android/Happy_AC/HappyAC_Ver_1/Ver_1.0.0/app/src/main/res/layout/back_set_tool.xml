@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="8dp"
+    android:paddingBottom="8dp"
+    android:id="@+id/maintool">
+
+    <ImageView
+        android:id="@+id/ivBack"
+        android:layout_width="24dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:adjustViewBounds="true"
+        android:src="@mipmap/back_icon" />
+
+    <ImageView
+        android:id="@+id/settingid"
+        android:layout_width="25dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:adjustViewBounds="true"
+        android:layout_marginRight="20dp"
+        android:layout_alignParentRight="true"
+        android:src="@mipmap/settings_icon" />
+</RelativeLayout>

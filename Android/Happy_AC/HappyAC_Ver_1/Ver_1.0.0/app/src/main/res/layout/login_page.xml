@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="18dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginTop="15dp"
+        android:textColor="@color/common_grey"
+        android:text="Sign in to continue"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:layout_marginTop="45dp"
+        android:fontFamily="sans-serif"
+        android:text="Email/username"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:hint="email.com/uname"
+        android:id="@+id/logunid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif"
+        android:text="Password"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/pwd_id"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
+            android:layout_marginTop="10dp"
+            android:password="true"
+            android:hint="*************"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@mipmap/scan_icon" />
+
+    </RelativeLayout>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"
+        android:fontFamily="sans-serif"
+        android:text="housename"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:textSize="15dp"
+        android:layout_marginTop="10dp"
+        android:padding="10dp"
+        android:layout_marginRight="30dp"
+        android:fontFamily="sans-serif"
+        android:hint="housename"
+        android:id="@+id/hnid"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:textSize="15dp"
+        android:layout_marginTop="25dp"
+        android:text="Forget Password?"
+        android:textColor="@color/common_grey"
+        android:gravity="right"
+        android:layout_marginRight="30dp"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="25dp"
+        android:text="Login"
+        android:textStyle="bold"
+        android:textColor="#FAFDD5"
+        android:id="@+id/loginid"
+        android:background="@drawable/btn"/>
+</LinearLayout>

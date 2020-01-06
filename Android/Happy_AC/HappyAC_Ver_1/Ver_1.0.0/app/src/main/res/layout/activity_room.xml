@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/common_white"
+
+    tools:context=".RoomActivity">
+    <include layout="@layout/room_settting" />
+
+   <!-- <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="add"
+            android:id="@+id/add"/>
+    </LinearLayout>-->
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="15dp"
+    android:layout_marginTop="15dp"
+   >
+    <include layout="@layout/room_heading" />
+
+</LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/card_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:scrollbarStyle="insideInset"
+        android:scrollbars="none"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="All Rooms"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#444444"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Appliance"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/common_grey"/>
+    </LinearLayout>
+<RelativeLayout
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="0.2"
+    android:padding="10dp">
+       <GridView
+        android:id="@+id/switches_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="3">
+    </GridView>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/crtroom"
+        android:onClick="create"
+        android:focusable="true"
+        android:visibility="gone"
+        android:background="@drawable/back_shadow_room"
+        >
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            android:focusableInTouchMode="true"
+            android:background="@mipmap/create_room_lg_icon"
+            android:text="Add Room"/>
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <include layout="@layout/bottom_fetures" />
+    </LinearLayout>
+
+
+</LinearLayout>

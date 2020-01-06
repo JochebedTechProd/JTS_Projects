@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Happy Remote</string>
+    <string name="all_devices">ALL DEVICES</string>
+    <string name="room_name">Room name</string>
+    <string name="remote">Remote</string>
+    <string name="configuration">Configuration</string>
+    <string name="xxx_xxxx_xxx_xxxx">xxx-xxxx-xxx-xxxx</string>
+    <string name="give_name_and_icon"><![CDATA[GIVE NAME & ICON]]></string>
+
+
+
+
+        <string-array name="spinnerItems">
+            <item>FORTUNE VILLA</item>
+            <item>PRAGATHI HIGHTS</item>
+
+        </string-array>
+
+
+    <string-array name="spinner_room">
+        <item>livingroom</item>
+        <item>diningroom</item>
+        <item>guestroom</item>
+
+
+    </string-array>
+</resources>

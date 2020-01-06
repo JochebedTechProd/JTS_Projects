@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_back"
+    android:orientation="vertical">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp">
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/home"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/hm_icon"
+            android:layout_marginTop="2dp"
+            android:background="@mipmap/home_icon_inactive"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Home"
+            android:id="@+id/hm_txt"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/room"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rm_icon"
+            android:layout_marginTop="2dp"
+            android:background="@mipmap/rooms_icon_active"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rooms"
+            android:id="@+id/rm_txt"
+            android:textColor="#F20000"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/device"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/dev_icon"
+            android:background="@mipmap/device_icon_inactive"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Devices"
+            android:id="@+id/dev_text"
+            android:textStyle="bold"
+
+
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:id="@+id/config"
+        android:orientation="vertical"
+        android:layout_weight="0.1">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/confg_icon"
+            android:background="@mipmap/config_icon_inactive"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Config"
+            android:id="@+id/confg_text"
+            android:textStyle="bold"
+            android:layout_marginTop="5dp"
+            />
+    </LinearLayout>
+</LinearLayout>
+
+
+
+
+</LinearLayout>

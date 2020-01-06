@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/give_name_and_icon"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            />
+    </LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:orientation="vertical">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        android:singleLine="true"
+        android:hint="Choose Device Name"
+        android:gravity="center"
+        android:id="@+id/value_id"
+        />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:id="@+id/fan"
+                android:background="@mipmap/fan_icon_sm"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="55dp"
+                android:layout_height="50dp"
+                android:id="@+id/tv"
+                android:background="@mipmap/tv_icon_sm"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/lamp"
+                android:background="@mipmap/lamp_icon_sm"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/wm"
+                android:background="@mipmap/washing_icon_sm"
+                />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:id="@+id/oven"
+                android:background="@mipmap/owen_icon_sm"                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/printer"
+                android:background="@mipmap/printer_icon_sm"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/cleaner"
+                android:background="@mipmap/cleaner_icon_sm"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/fridge"
+                android:background="@mipmap/fridge_icon_sm"
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/fan2"
+                android:background="@mipmap/fan2_icon_sm"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <Button
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:id="@+id/ac"
+                android:background="@mipmap/ac_icon_sm"
+
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="0.1"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                />
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="55dp"
+            android:layout_weight="0.2"
+            android:text="cancle"
+            android:visibility="gone"
+            android:textColor="#000000" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="180dp"
+            android:text="save"
+            android:layout_gravity="center"
+            android:layout_height="55dp"
+            android:background="@drawable/btn_submi_green"
+
+            android:textColor="#FCFAFA" />
+
+    </LinearLayout>
+</LinearLayout>
